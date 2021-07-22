@@ -1,5 +1,3 @@
-import React from "react";
-
 import TestImage from "src/assets/test.png";
 import Document from "src/assets/icons/file.svg";
 import ThumbsUp from "src/assets/icons/thumbs-up.svg";
@@ -7,6 +5,7 @@ import ThumbsUp from "src/assets/icons/thumbs-up.svg";
 import MainLayout from "src/layouts/MainLayout";
 import ImageCard from "src/components/shared/ImageCard";
 import Tile from "src/components/shared/Tile";
+
 
 const Home = () => {
   return (
