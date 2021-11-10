@@ -72,7 +72,7 @@ function createWindow() {
 		if (typeof callback === 'function') callback();
 	}
 
-	run_script(`cd ${currentPath}/api && python3.9`, [`./router.py`], null);
+	run_script(`cd ${currentPath}/api && python`, [`./router.py`], null);
 }
 
 app.on('ready', createWindow);
