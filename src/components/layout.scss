@@ -1,0 +1,57 @@
+@import "src/styles/main";
+
+$flex-gap-small: 5px;
+$flex-gap-medium: 10px;
+$flex-gap-large: 15px;
+$flex-gap-x-large: 20px;
+$flex-gap-xx-large: 25px;
+$flex-gap-xxx-large: 30px;
+
+$padding-small: 5px;
+$padding-medium: 10px;
+$padding-large: 15px;
+$padding-x-large: 20px;
+$padding-xx-large: 25px;
+$padding-xxx-large: 30px;
+
+$border-radius-small: 5px;
+$border-radius-medium: 10px;
+$border-radius-large: 15px;
+
+.wpmt-main {
+  background: #2B2F38;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.wpmt-navbar-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 6vh;
+  width: 100%;
+  background: var(--color-default-primary);
+}
+
+.wpmt-navbar-items {
+  display: flex;
+  list-style-type: none;
+  gap: $flex-gap-xx-large;
+  padding: 0;
+  margin: 0;
+    a {
+      padding: $padding-medium;
+      border-radius: $border-radius-small;
+      color: var(--color-default-text);
+    }
+    :hover {
+      background-color: var(--color-default-primary-hover);
+      color: var(--color-default-primary);
+    }
+}
+
+
+

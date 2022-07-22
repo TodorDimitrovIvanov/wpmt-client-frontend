@@ -1,0 +1,5 @@
+@mixin add-theme-default-styles {
+  .wpmt-theme-default {
+    @content
+  }
+}
