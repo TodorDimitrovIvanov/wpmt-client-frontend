@@ -5,48 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d9dcba-4e45-4e3c-94af-590e651d21b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/wpmt-client-frontend.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Dashboard.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/styles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/styles.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/styles.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/default/default.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/default/default.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/default/default.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/default/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/default/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/default/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/themes/index.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Domain/Domain.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/constants.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/constants.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/constants.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/index.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/styles/base/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/Counter.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/counterAPI.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.spec.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/features/counter/counterSlice.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/setupTests.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,6 +65,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/styles/base/themes/default" />
     </key>
   </component>
@@ -122,7 +99,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658412580631</updated>
-      <workItem from="1658412581846" duration="17813000" />
+      <workItem from="1658412581846" duration="24591000" />
     </task>
     <servers />
   </component>
