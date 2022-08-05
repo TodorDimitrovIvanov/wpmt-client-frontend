@@ -5,24 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d9dcba-4e45-4e3c-94af-590e651d21b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Domain/Domain.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/constants.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/constants.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/constants.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/index.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/index.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/styles/base/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Backup/Backup.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Transfer/Transfer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout.tsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Dashboard.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +53,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pages/Dashboard" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
       <recent name="$PROJECT_DIR$/src/styles/base/themes/default" />
     </key>
@@ -99,7 +88,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1658412580631</updated>
-      <workItem from="1658412581846" duration="24591000" />
+      <workItem from="1658412581846" duration="25463000" />
+      <workItem from="1659704981140" duration="684000" />
     </task>
     <servers />
   </component>

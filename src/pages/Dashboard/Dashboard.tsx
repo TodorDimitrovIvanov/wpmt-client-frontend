@@ -1,5 +1,5 @@
 import React from 'react'
-import LayoutWPMT from "../components/Layout/Layout";
+import LayoutWPMT from "../../components/Layout/Layout";
 
 const Dashboard: React.FunctionComponent = () => {
 
