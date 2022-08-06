@@ -1,9 +1,9 @@
 /* Error: Can't find stylesheet to import.
  *    ,
- * 12 | @import "src/styles/main";
+ * 15 | @import "src/styles/main";
  *    |         ^^^^^^^^^^^^^^^^^
  *    '
- *   index.scss 12:9  root stylesheet */
+ *   index.scss 15:9  root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -13,5 +13,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Can't find stylesheet to import.\a    \2577 \a 12 \2502  @import \"src/styles/main\";\a    \2502          ^^^^^^^^^^^^^^^^^\a    \2575 \a   index.scss 12:9  root stylesheet";
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 15 \2502  @import \"src/styles/main\";\a    \2502          ^^^^^^^^^^^^^^^^^\a    \2575 \a   index.scss 15:9  root stylesheet";
 }

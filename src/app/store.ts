@@ -1,8 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
+import wordpressReducer from '../slices/wordpressSlice'
 
 export const store = configureStore({
   reducer: {
-
+    wordpress: wordpressReducer
   },
 });
 

@@ -5,17 +5,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d9dcba-4e45-4e3c-94af-590e651d21b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/Backup/Backup.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Transfer/Transfer.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/iconWordPress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slices/wordpressSlice.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Router/Router.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Dashboard.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Dashboard/Dashboard.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/constants.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/themes/default/default.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css.map" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="SCSS File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -41,17 +56,21 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules/sass/sass.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/assets" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/pages/Dashboard" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
@@ -89,7 +108,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658412580631</updated>
       <workItem from="1658412581846" duration="25463000" />
-      <workItem from="1659704981140" duration="684000" />
+      <workItem from="1659704981140" duration="19176000" />
     </task>
     <servers />
   </component>

@@ -10,7 +10,10 @@
   --color-default-notification-icon-success: #98CB51;
   --color-default-notification-icon-warning: #E19B3C;
   --color-default-notification-icon-error: #DE5347;
-  --color-default-text: #FFFFFF ;
+  --color-default-button: #4C74B9;
+  --color-default-button-hover: #293450;
+  --color-default-border: #FFFFFF;
+  --color-default-text: #FFFFFF;
 }
 
 /*# sourceMappingURL=main.css.map */
