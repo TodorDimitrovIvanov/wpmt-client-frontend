@@ -5,20 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d9dcba-4e45-4e3c-94af-590e651d21b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/iconWordPress.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/slices/wordpressSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Actions.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Ads.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Plugins.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Themes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Troubleshoot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/MenuItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/store.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/iconWordPress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/WordPressLogo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/constants.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/constants.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/default.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/base/themes/default/default.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/slices/wordpressSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/slices/wordpressSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/constants.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/constants.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/styles.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/styles.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/default.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/default.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/main.css.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +81,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.intentionPowerPack" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -108,7 +126,7 @@
       <option name="presentableId" value="Default" />
       <updated>1658412580631</updated>
       <workItem from="1658412581846" duration="25463000" />
-      <workItem from="1659704981140" duration="19176000" />
+      <workItem from="1659704981140" duration="26921000" />
     </task>
     <servers />
   </component>
