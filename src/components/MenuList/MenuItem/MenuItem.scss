@@ -1,0 +1,41 @@
+@import "../../../styles/main";
+
+
+
+.wpmt-menu-item {
+  display: flex;
+  align-items: center;
+  gap: $flex-gap-xx-large;
+  margin: $margin-small $margin-xxxx-large;
+}
+
+.wpmt-menu-item__title {
+  background: var(--color-default-secondary);
+  width: 30%;
+  padding: $padding-large;
+  border-radius: $border-radius-medium;
+  border: $border-small solid var(--color-default-border);
+
+  p {
+    text-align: center;
+    color: var(--color-default-text);
+    font-size: $font-size-x-large;
+  }
+}
+
+.wpmt-menu-item__content {
+  width: 70%;
+  background: var(--color-default-notification-info);
+  border-radius: $border-radius-medium;
+  padding: $padding-large;
+
+  p {
+    text-align: center;
+    color: var(--color-default-text);
+    font-size: $font-size-x-large;
+  }
+}
+
+
+
+

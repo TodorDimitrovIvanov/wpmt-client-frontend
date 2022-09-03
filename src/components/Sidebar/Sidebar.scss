@@ -1,0 +1,19 @@
+.wpmt-sidebar {
+  position: fixed;
+  height: 100%;
+  width: 400px;
+  background: green;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  transition: width 0.8s, height 0.8s, background-color 0.8s, transform 0.8s;
+  transform: translateX(-100%);
+  top: 0;
+  z-index: 2;
+}
+
+.wpmt-sidebar.open {
+  transition: width 0.8s, height 0.8s, background-color 0.8s, transform 0.8s;
+  transform:translatex(0);
+}
+
+
+

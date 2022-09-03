@@ -1,6 +1,8 @@
-import React from 'react';
-import './layout.scss'
-import { Link } from "react-router-dom";
+import React, { useState } from 'react';
+import './Layout.scss';
+import Navbar from "../Navbar/Navbar";
+import Sidebar from "../Sidebar/Sidebar";
+import { useAppSelector } from "../../store/hooks";
 
 export interface commonProps {
     children?: any;
@@ -8,38 +10,23 @@ export interface commonProps {
 
 const LayoutWPMT: React.FunctionComponent<Partial<commonProps>> = (props: commonProps) => {
 
+    const isLogged = useAppSelector(state => state.user.current.isLogged)
+
     const { children } = props;
 
     return (
-<div className='wpmt-main'>
-    <header>
-        <div className='wpmt-navbar-background'>
-            <ul className='wpmt-navbar-items'>
-                <li>
-                    <Link to='/' className='noselect' >Dashboard</Link>
-                </li>
-                <li>
-                    <Link to='/domain' className='noselect' >Domain</Link>
-                </li>
-                <li>
-                    <Link to='/wordpress' className='noselect' >WordPress</Link>
-                </li>
-                <li>
-                    <Link to='/backup' className='noselect' >Backup</Link>
-                </li>
-                <li>
-                    <Link to='/Transfer' className='noselect' >Transfer</Link>
-                </li>
-            </ul>
+        <div className="wpmt-main">
+            <Sidebar></Sidebar>
+            <header>
+                <Navbar/>
+            </header>
+            <main>
+                <div className="wpmt-main-background">
+                    {isLogged ? children : <p>Logging you in!</p>}
+                </div>
+            </main>
         </div>
-    </header>
-    <main>
-    <div className='wpmt-main-background'>
-        {children}
-    </div>
-    </main>
-</div>
-    )
-}
+    );
+};
 
 export default LayoutWPMT;

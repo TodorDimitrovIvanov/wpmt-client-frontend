@@ -1,0 +1,28 @@
+@import "./src/styles/main";
+
+.wpmt-page-menubox {
+  display: flex;
+  margin-left: 40px;
+  width: 200px;
+  height: 140px;
+  background: var(--color-default-notification-info);
+  border-radius: $border-radius-medium;
+}
+
+.wpmt-menu-card-text {
+  margin: auto;
+  color: var(--color-default-text);
+}
+
+.wpmt-menu-card-status {
+  position: absolute;
+  background: var(--color-default-notification-icon-success);
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  border-radius: $border-radius-medium;
+}
+
+.wpmt-menu-container__flex {
+  display: flex;
+}

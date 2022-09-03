@@ -1,74 +1,98 @@
 import LayoutWPMT from "../../components/Layout/Layout";
-import { useSelector } from "react-redux";
-import { fetchPlugins, fetchTheme, selectPlugins, selectThemes } from "../../slices/wordpressSlice";
+import {
+    fetchPlugins,
+    fetchTheme,
+    fetchVersion,
+    selectPlugins,
+    selectThemes,
+    selectVersion
+} from "../../slices/wordpressSlice";
 import { useMemo } from "react";
-import './wordpress.scss';
+import './Wordpress.scss';
 import wordPressSVG from '../../assets/WordPressLogo.svg';
-import pluginSVG from '../../assets/Plugins.svg'
-import themeSVG from '../../assets/Themes.svg'
-import adsSVG from '../../assets/Ads.svg'
-import troubleshootSVG from '../../assets/Troubleshoot.svg'
-import actionsSVG from '../../assets/Actions.svg'
-import MenuItem from "./MenuItem";
-import { useAppDispatch, useAppSelector } from "../../app/hooks";
+import pluginSVG from '../../assets/Plugins.svg';
+import themeSVG from '../../assets/Themes.svg';
+import adsSVG from '../../assets/Ads.svg';
+import troubleshootSVG from '../../assets/Troubleshoot.svg';
+import actionsSVG from '../../assets/Actions.svg';
+import { useAppDispatch, useAppSelector } from "../../store/hooks";
+import MenuCard from "../../components/MenuCard/MenuCard";
+import MenuList from "../../components/MenuList/MenuList";
+import { core, Performance, plugin, themes } from './mockData';
 
 
 const Wordpress = () => {
 
     const dispatch = useAppDispatch();
-
-    const requestStatus: any = useAppSelector(state => state.wordpress.status);
     const plugins = useAppSelector(selectPlugins);
-    const themes = useAppSelector(selectThemes)
-    {/*{plugins.map((plugin: any) => <li key={plugin.textdomain} >{plugin.name}</li>)}*/
-    }
+    const version = useAppSelector(selectVersion);
+    const themes = useAppSelector(selectThemes);
+    const selectedSite = useAppSelector(state => state.website.selectedWebsite);
+    const isLogged = useAppSelector(state => state.user.current.isLogged);
+    const requestStatus: any = useAppSelector(state => state.wordpress.status);
 
     useMemo(() => {
-        if (requestStatus === 'idle') {
+        if (requestStatus === 'idle' && isLogged && selectedSite) {
             dispatch(fetchPlugins());
-            dispatch(fetchTheme())
+            dispatch(fetchTheme());
+            dispatch(fetchVersion());
         }
-    }, [ requestStatus, dispatch ]);
+    }, [ dispatch, isLogged, selectedSite ]);
+
 
     const activePlugins = plugins.reduce((sum: number, plugin: any) => {
-        if(plugin.status === 'active') {
-            sum++
+        if (plugin.status === 'active') {
+            sum++;
         }
-        return sum
-    }, 0)
+        return sum;
+    }, 0);
 
-    const activeTheme = themes.filter((theme: { status: string; }) => theme.status === 'active')[0]?.stylesheet || 'Loading!'
-    console.log(activeTheme);
+    const test = [
+        {
+            name: 'Installed Plugins',
+            value: plugins.length
+        },
+        {
+            name: "Enabled Plugins",
+            value: activePlugins
+        },
+    ];
+
+    const activeTheme = themes.filter((theme: { status: string; }) => theme.status === 'active');
 
     return (
         <LayoutWPMT>
-            <div className="wpmt-menu wpmt-wordpress-core__container">
-                <MenuItem name="Core" iconAlt="WordPress Logo"  type="title" icon={wordPressSVG}/>
-                <MenuItem type="item" name="Current Version" value="6.0"/>
-                <MenuItem type="item" name="Latest Version" value="6.5"/>
-                <MenuItem type="item" name="Website Size" value="352 MB"/>
-                <MenuItem type="item" name="File Count" value="32102 files"/>
-                <button className="wpmt-menu wpmt-wordpress__core-button">Update</button>
+            <MenuList items={core} title="Core" icon={wordPressSVG}>
+                <button className="wpmt-menu wpmt-wordpress__core-button">Refresh</button>
+            </MenuList>
+            <MenuList items={test} title="Plugins" icon={pluginSVG}/>
+            <MenuList flex items={activeTheme} title="Themes" icon={themeSVG}>
+                <MenuCard title="Dev title"/>
+                <MenuCard title="Dev title"/>
+                <MenuCard title="Dev title"/>
+                <MenuCard title="Dev title"/>
+            </MenuList>
+            <MenuList flex title="Ads" icon={adsSVG}>
+                <MenuCard title="Dev title"/>
+                <MenuCard title="Dev title"/>
+            </MenuList>
+            <MenuList title="Performance" icon={wordPressSVG} items={Performance}/>
 
-                <MenuItem name="Plugins" iconAlt="Puzzle piece" type="title" icon={pluginSVG}/>
-                <MenuItem type="item" name="Installed Plugins" value={plugins.length}/>
-                <MenuItem type="item" name="Enabled Plugins" value={activePlugins}/>
+            {/*    <MenuItem name="Troubleshooting" iconAlt="WordPress logo" type="title" icon={troubleshootSVG}/>*/}
+            {/*    <div className="wpmt-menu-card-container">*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*        <MenuCard title="Dev title"/>*/}
+            {/*    </div>*/}
 
-                <MenuItem name="Themes" iconAlt="Brush" type="title" icon={themeSVG}/>
-                <MenuItem type="item" name="Installed themes" value={themes.length}/>
-                <MenuItem type="item" name="Active theme" value={activeTheme}/>
+            {/*    <MenuItem name="Actions" iconAlt="WordPress logo" type="title" icon={actionsSVG}/>*/}
 
-                <MenuItem name="Ads" iconAlt="Cone-shaped Loudspeaker" type="title" icon={adsSVG}/>
-
-                <MenuItem name="Performance" iconAlt="WordPress logo" type="title" icon={wordPressSVG}/>
-                <MenuItem type="item" name="Google PageSpeed Score" value="29"/>
-                <MenuItem type="item" name="GTMetrix Score" value="21"/>
-
-                <MenuItem name="Troubleshooting" iconAlt="WordPress logo" type="title" icon={troubleshootSVG}/>
-
-                <MenuItem name="Actions" iconAlt="WordPress logo" type="title" icon={actionsSVG}/>
-
-            </div>
+            {/*</div>*/}
         </LayoutWPMT>
     );
 };

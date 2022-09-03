@@ -5,38 +5,39 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b6d9dcba-4e45-4e3c-94af-590e651d21b3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/Actions.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Ads.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Plugins.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Themes.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Troubleshoot.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/MenuItem.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/HamburgerIcon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Container/Container.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuCard/MenuCard.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuCard/MenuCard.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuList/MenuItem/MenuItem.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuList/MenuItem/MenuItem.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuList/MenuList.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/MenuList/MenuList.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Sidebar/Sidebar.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constants/endpoints.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Wordpress/mockData.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slices/appSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slices/userSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/slices/websiteSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/icon.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/iconWordPress.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/WordPressLogo.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/hooks.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/hooks.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Navbar/Navbar.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Router/Router.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Router.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/MenuItem.tsx" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/Wordpress/wordpress.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Wordpress/Wordpress.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/slices/wordpressSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/slices/wordpressSlice.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/constants.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/constants.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/index.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/styles.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/default.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/default.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/base/themes/default/index.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/main.css.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,7 +65,6 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="false" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
@@ -81,7 +81,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.notifications" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -90,14 +90,18 @@
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/MenuList/MenuItem" />
+      <recent name="$PROJECT_DIR$/src/components/MenuList" />
+      <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$/src/pages/Dashboard" />
       <recent name="$PROJECT_DIR$/src/components/Layout" />
-      <recent name="$PROJECT_DIR$/src/styles/base/themes/default" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
+      <command value="open ~/projects/sg-userarea-spa" />
       <command value="npm run start" />
+      <command value="start" />
     </option>
   </component>
   <component name="RunManager">
@@ -126,7 +130,11 @@
       <option name="presentableId" value="Default" />
       <updated>1658412580631</updated>
       <workItem from="1658412581846" duration="25463000" />
-      <workItem from="1659704981140" duration="26921000" />
+      <workItem from="1659704981140" duration="44387000" />
+      <workItem from="1661001260278" duration="24723000" />
+      <workItem from="1661325662483" duration="759000" />
+      <workItem from="1662054628510" duration="5429000" />
+      <workItem from="1662129503561" duration="13215000" />
     </task>
     <servers />
   </component>

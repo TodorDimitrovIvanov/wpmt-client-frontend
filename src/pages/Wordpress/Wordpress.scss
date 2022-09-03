@@ -1,0 +1,16 @@
+@import "./src/styles/main";
+
+.wpmt-wordpress__core-button {
+  padding: $padding-x-large;
+  background: var(--color-default-button);
+  border: none;
+  border-radius: $border-radius-medium;
+  font-size: $font-size-x-large;
+  color: var(--color-default-text);
+  margin: $margin-small $margin-xxxx-large;
+  transition: 0.2s ease-out 100ms;
+  &:hover {
+    background: var(--color-default-button-hover);
+    cursor: pointer;
+  }
+}
